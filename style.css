@@ -93,14 +93,4 @@ legend{
       font-weight:800;
       color:white;
   }
-@media only screen and (max-width: 380px)
-fieldset {
-    padding: 12px;
-}
-fieldset {
-  @media only screen and (max-width: 350px) {
-  
-  fieldset{
-      padding: 12px;
-  }
-}
+
