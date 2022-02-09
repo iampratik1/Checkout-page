@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut-Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" width="150px"alt="">
+        <center><h3>Checkout</h3>
+  <a href="" class="ac">Already Registered?Click Here to Login</a></center>
+</div>
+    <div class="flex-container">
+    <fieldset>
+        <legend>Billing Address</legend>
+        <form>
+            <p>First Name * <input type="text" name="fname" id="fname" required>
+            <p>Last Name * <input type="text" name="lname" id="lname" required></p>
+            <p>Gender * <input type="radio" name="gender" id="gender">Male <input type="radio" name="gender" id="">Female</p>
+            <p>Email Id *<br><input type="email" name="email" id="email"></p>
+            <p>Contact number * <br><input type="tel" name="Cnum" id="cnum"></p>
+            <p>Address * <br><textarea name="address"rows="3" cols="35"></textarea></p>
+            <p>City* <br><input type="city" name="city" id="city"></p>
+        </form>
+        </fieldset>
+
+        <fieldset id="payment">
+            <legend>Payment Method</legend>
+            <input type="radio" name="card" id="card"> Debit/credit Card <br>
+            <input type="radio" name="card" id="card"> UPI <br>
+            <input type="radio" name="card" id="card"> Net Banking<br>
+            <input type="radio" name="card" id="card"> PayPal <br>
+            <span style="color: green; font-weight: 700;">Coupon Code %</span>
+            <br>
+            <input type="text" name="coupon" id="coupon"><br>
+            <input type="button" value="Apply Coupon" class="bcoupon"><br>
+            <label> Card Number: <br> <input type="tel" name="Cardnum" id="cardnum"> </label><br>
+            <label> Expiry Date: <br> <input type="date" name="Edate" id="edate"> </label><br>
+            <label> CVV: <br><input type="password" name="cvv" id="cvv"> </label>
+            <br> 
+            <span><img src="https://cdn2.iconfinder.com/data/icons/essentials-bigdark/100/Artboard_158-512.png" alt="" width="30px"></span>
+            <span><img src="https://news.resolver.in/wp-content/uploads/2019/09/1200px-UPI-Logo-vector.svg.png" alt="" width="50px"></span>
+            <span><img src="https://www.logo.wine/a/logo/Google_Pay/Google_Pay-Logo.wine.svg" alt="" width="50px"></span>
+            <span><img src="https://www.logo.wine/a/logo/Paytm/Paytm-Logo.wine.svg" alt="" width="60px"></span><br>
+            <span><img src="https://www.city-pension.com/wp-content/uploads/2021/08/epay_paypal_kreditkarte.png" alt="" width="110px"></span><br>
+            
+            <input type="button" value="₹ Pay Now" class="pay">
+        </fieldset>
+    </div>
+</body>
+</html>
