@@ -1,0 +1,95 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* body{
+    background:linear-gradient(aqua, red, white)
+} */
+.header{
+    margin-top: -1%;
+    margin-left: -2%;
+    margin-right: -2%;
+    background:linear-gradient(aqua ,rgb(195, 222, 224), rgb(22, 214, 214));
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 10px 5px rgba(51, 48, 48, 0.603);
+}
+#email, #cnum, #city, #coupon, #cardnum, #edate, #cvv{
+   width: 270px;
+   height: 25px;
+   margin-top: 5px;
+}
+ .bcoupon , .pay{
+    margin-top: 12px;
+    font-size: 17px;
+    background: linear-gradient(orange, red);
+      font-weight:800;
+      color:white;
+ }
+.bcoupon{
+    margin-bottom: 10px;
+    padding: 5 15;
+    font-size: 15;
+    
+}
+.pay{
+padding: 5 25px;
+}
+#payment{
+    width: auto;
+    height: 460;
+}
+fieldset{
+    padding: 15px 55px;
+    background-position: center;
+    background-color: rgba(138, 148, 148, 0.082);
+    box-shadow: 0px 0px 10px grey;
+    height: 460;
+
+}
+.header img{
+   position: absolute;
+   padding:30px;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    padding-top: 12px;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+.ac{
+    padding-bottom: 25px;
+    color: red;
+}
+legend{
+    font-size: 30px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 70px;
+        margin-top: -2%;
+    }
+    .header  h3{
+        text-align: right;
+        font-size: 25px;
+        padding-right: 15px;
+      
+    }
+    .ac{
+        position: absolute;
+        font-size: 15px;
+    }
+  }
+  .bcoupon:hover,.pay:hover{
+      background: linear-gradient(red,orange);
+      font-weight:800;
+      color:white;
+  }
