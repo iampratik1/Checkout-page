@@ -97,10 +97,11 @@ legend{
  @media only screen and (max-width: 380px) {
 
   fieldset{
+      width:330px;
       padding: 10px;
   }
   #payment{
-      width:350px;
+      width:330px;
     height: 480;
 }
 }
