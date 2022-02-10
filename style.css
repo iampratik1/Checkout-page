@@ -94,3 +94,13 @@ legend{
       color:white;
   }
 
+ @media only screen and (max-width: 380px) {
+  
+  fieldset{
+      padding: 10px;
+  }
+  #payment{
+    width: auto;
+    height: 470;
+}
+}
